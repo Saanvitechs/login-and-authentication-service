@@ -86,7 +86,7 @@ public class SignupRequest {
   private String lastName;
 
   @NotBlank(message = "Phone number is mandatory")
-  @Size(max = 15)
+  @Size(max = 10)
   private String phoneNumber;
 
   public String getUsername() {
